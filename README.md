@@ -1,1 +1,1 @@
-# 116f19_Labs
+# CSC 116 - Fall 2019 - Lab Materials
