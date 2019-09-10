@@ -9,9 +9,7 @@ and output (I/O).
 * Lab Environment
 
 The lab contains workstations with both Ubuntu (Linux) and Windows operating systems. For CSC 116, we will be using the 
-*Ubuntu Linux environment only*. The lab machines are the gold standard for assignments. If your assignment submission works 
-on the lab machines you're good. If your code does not compile in the lab environment, it will not be marked. Test your 
-assignment submissions on the lab machines before submitting them. 
+*Ubuntu Linux environment only*. The lab machines are the gold standard for assignments, so you should ensure that all of your assignment code runs correctly on the lab machines before submitting. If your code does not compile in the lab environment, it will not be marked.
 
 When you log in to a lab machine, your personal files will be available under ~/home/yourusername~. These files can also be 
 accessed from any other lab machine in ECS, but not from other Engineering labs. On Windows lab machines, your network drive 
