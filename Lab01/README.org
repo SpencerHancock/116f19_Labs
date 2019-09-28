@@ -1,5 +1,4 @@
-#+TITLE: Lab 01: Hello World, Basic I/O and Vectors
-
+#+TITLE: Lab 01: Hello World, Basic I/O, and Vectors
 
 * Overview
 
@@ -27,7 +26,7 @@ We encourage the use of the ~vscode~ editor (available from [[https://code.visua
 
 To compile and run your code, you will need to use a terminal window positioned in the directory containing your code. To 
 access a terminal in the lab environment first open the folder containing your code in the file browser, right click in the 
-background of the file browser window, then select ~Open Terminal Here~.
+background of the file browser window, then select ~Open in Terminal~.
 
 
 * Part 1: Hello World
@@ -38,7 +37,7 @@ The code below is the complete "Hello World" program in C++.
 #include <iostream>
 
 int main() {
-	std::cout << "Hello World" << std::endl;
+	std::cout << "Hello World\n";
 	
 	return 0;
 }
@@ -105,8 +104,8 @@ int main() {
 	std::cout << "Enter a number: ";
 	std::cin >> num;
 	
-	if(std::cin.fail()) {
-		std::cout << "Input was invalid." << std::endl;
+	if (std::cin.fail()) {
+		std::cout << "Input was invalid.\n";
 	} else {
 		std::cout << "You entered " << num << std::endl;
 	}
@@ -128,10 +127,10 @@ int main() {
 	std::cout << "Enter a number: ";
 	std::cin >> num;
 	
-	if(std::cin) {
+	if (std::cin) {
 		std::cout << "You entered " << num << std::endl;
 	} else {
-		std::cout << "Input was invalid." << std::endl;
+		std::cout << "Input was invalid.\n";
 	}
 	
 	return 0;
@@ -150,10 +149,10 @@ int main() {
 	
 	std::cout << "Enter a number: ";
 	
-	if(std::cin >> num) {
+	if (std::cin >> num) {
 		std::cout << "You entered " << num << std::endl;
 	} else {
-		std::cout << "Input was invalid." << std::endl;
+		std::cout << "Input was invalid.\n";
 	}
 	
 	return 0;
@@ -205,9 +204,9 @@ int main() {
 	vec.push_back(111);
 	vec.push_back(116);
 
-	std::cout << "vec contains " << vec.size() << " elements" << std::endl;
+	std::cout << "vec contains " << vec.size() << " elements\n";
 	std::cout << "Contents: ";
-	for(auto val : vec) {
+	for (auto val : vec) {
 		std::cout << val << " ";
 	}
 	std::cout << std::endl;
@@ -292,7 +291,7 @@ Values (reverse): 17 6 10
 Your solution to Exercise 2 printed the elements in forwards order. If you were to reuse the forwards printing code, what 
 changes would be required to print the elements in reverse order?
 
-** Extra Exercise: Comma Separated and Sorted Printing
+** Challenge Exercise: Comma Separated and Sorted Printing
 
 Modify your Exercise 3 code to print all elements separated by commas (with no comma after the last element). Afterwards add an 
 extra line of output printing all elements in ascending sorted order. An example run of a successful solution appears below.

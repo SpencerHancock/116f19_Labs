@@ -126,7 +126,7 @@ int main() {
 #+END_SRC
 
 The above program will run until ~std::cin~ reaches an end-of-file character. When reading a file, this character automatically 
-occurs when the end of the file is reached. When reading from the user, this character is sent when the user enters  ~Ctrl+D~ 
+occurs when the end of the file is reached. When reading from the user, this character is sent when the user enters ~Ctrl+D~ 
 (on Mac/Linux systems) or ~Ctrl+Z~ on a newline (on Windows).
 
 Use the following command to run the program above with the input redirected from a text file.
@@ -138,7 +138,7 @@ Use the following command to run the program above with the input redirected fro
 ** Exercise 2: Standard Input Practice
  
 Try the command above to pipe ~seashells.txt~ into the standard input stream for the ~read_lines~ program.  Afterwards, run the 
-program again using user input instead. When you want to terminate the program, use Ctrl+D to send the end-of-file character.
+program again using user input instead. When you want to terminate the program, use ~Ctrl+D~ to send the end-of-file character.
 
 * Part 3: String and Vector Exercises
 

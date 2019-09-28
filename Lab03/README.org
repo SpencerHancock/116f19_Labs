@@ -54,7 +54,7 @@ Realized what you gotta do
 #+END_EXAMPLE
 
 #+BEGIN_EXAMPLE
-./diff file1.txt file2.txt
+diff file1.txt file2.txt
 2c2
 < That they're gonna throw it back to you
 ---
