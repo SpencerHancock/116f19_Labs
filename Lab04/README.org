@@ -71,7 +71,7 @@ The ~part1.cpp~ file contains three functions for you to implement:
  - The ~add_matrices~ function adds two matrices together and returns the result.
 
 The comments in ~part1.cpp~ contain additional details about each function. In particular, ~hilbert~ will require some extra attention. 
-Recall that entry ~(i,j)~ of a Hilbert matrix is equal to ~1/(i + j + 1)~. Be sure to adjust the formula to accommodate C++'s 0-based 
+Recall that entry ~(i,j)~ of a Hilbert matrix is equal to ~1/(i + j - 1)~. Be sure to adjust the formula to accommodate C++'s 0-based 
 indexing.
  
 A series of test inputs and expected outputs are provided in the ~code/part1/tests~ folder. Additionally, there is a script called 
