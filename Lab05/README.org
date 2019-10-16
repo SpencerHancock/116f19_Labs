@@ -77,10 +77,10 @@ be used to help with this preprocessing.
 
 * Maintaining Unique Data with ~std::set~
 
-~std::set~ is a container which maintains a unique set of elements. It is similar to ~std::map~ which 
-maintains unique key-value pairs, except ~std::set~ only maintains the keys. Similar to ~std::map~,
-the function ~find~ can be used to determine if an element is in a set. ~find~ returns a pointer to 
-the element if it exists or a pointer to ~end~ otherwise.
+~std::set~ is a container which maintains a unique set of ordered elements. ~std::set~ has an ~insert~ and ~erase~ 
+function, to add and remove elements from the set. There are no push or pop functions, because a set has no 
+concept of a sequence. The function ~find~ can be used to determine if an element is in a set. ~find~ returns an 
+iterator positioned at the element if it exists or positioned at the ~end~ otherwise.
 
 #+BEGIN_SRC C++
 #include <iostream>
